@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="index.css">
 
     <script src="https://kit.fontawesome.com/4cae93f6b8.js" crossorigin="anonymous"></script>
 </head>
@@ -283,26 +283,30 @@
 
     <br>
     <br>
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact"method="POST" data-netlify="true"></form> >
         <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Enter email">
+                        
+                            <label>Name: <input type="text" name="name" /></label>
+                          
                     </div>
                 </div>
                 <div class="col">
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Name</label>
-                        <input type="Email" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                    
+                        
+                                <label>Email: <input type="text" name="email" /></label>
+                              
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-4">
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Message!</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Message">
+                       
+                        <label>Message!: <br>
+                            <textarea name="message"></textarea></label>
+                        
                     </div>
                 </div>
                 <div class="col">
